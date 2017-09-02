@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_prebook"
+            android:icon="@drawable/ic_restaurant_black_24dp"
+            android:title="@string/pre_book" />
+
+
+        <item
+            android:id="@+id/nav_manageprofit"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:title="@string/monitor_sale" />
+    </group>
+
+    <item android:title="@string/update55">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_menu"
+                android:icon="@drawable/ic_restaurant_menu_black_24dp"
+                android:title="@string/menu2" />
+            <item
+                android:id="@+id/nav_price"
+                android:icon="@drawable/ic_local_atm_black_24dp"
+                android:title="@string/prices_and_taxes" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/contact_us">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_email"
+                android:icon="@drawable/ic_mail_black_24dp"
+                android:title="@string/mail_us" />
+            <item
+                android:id="@+id/nav_address"
+                android:icon="@drawable/ic_place_black_24dp"
+                android:title="@string/locate_us" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

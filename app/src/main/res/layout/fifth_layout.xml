@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update_price"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="33dp"
+            android:text="@string/starter"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_above="@+id/tv3"
+            android:layout_alignStart="@+id/e3" />
+
+        <EditText
+            android:id="@+id/e5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:padding="10dp"
+            android:inputType="numberDecimal"
+            android:layout_below="@+id/e4"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_alignBaseline="@+id/e5"
+            android:layout_alignBottom="@+id/e5"
+            android:layout_alignStart="@+id/tv4" />
+
+        <EditText
+            android:id="@+id/e4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:padding="10dp"
+            android:inputType="numberDecimal"
+            android:layout_below="@+id/e3"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_marginTop="32dp"
+            android:layout_below="@+id/tv1"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/e6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:padding="10dp"
+            android:inputType="numberDecimal"
+            android:layout_below="@+id/e5"
+            android:layout_alignParentEnd="true" />
+
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_alignBaseline="@+id/e4"
+            android:layout_alignBottom="@+id/e4"
+            android:layout_alignStart="@+id/tv3" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_alignBaseline="@+id/e6"
+            android:layout_alignBottom="@+id/e6"
+            android:layout_alignStart="@+id/tv5" />
+
+        <EditText
+            android:id="@+id/e3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:padding="10dp"
+            android:inputType="numberDecimal"
+            android:layout_alignBaseline="@+id/tv3"
+            android:layout_alignBottom="@+id/tv3"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/main"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_below="@+id/tv6"
+            android:layout_alignStart="@+id/tv3" />
+
+        <TextView
+            android:id="@+id/tv21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_above="@+id/tv31"
+            android:layout_alignStart="@+id/e31" />
+
+        <EditText
+            android:id="@+id/e51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:padding="10dp"
+            android:inputType="numberDecimal"
+            android:layout_below="@+id/e41"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/tv51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_alignBaseline="@+id/e51"
+            android:layout_alignBottom="@+id/e51"
+            android:layout_alignStart="@+id/tv41" />
+
+        <EditText
+            android:id="@+id/e41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:padding="10dp"
+            android:inputType="numberDecimal"
+            android:layout_below="@+id/e31"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/tv31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_marginTop="31dp"
+            android:layout_below="@+id/tv11"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/e61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:padding="10dp"
+            android:inputType="numberDecimal"
+            android:layout_below="@+id/e51"
+            android:layout_alignParentEnd="true" />
+
+
+        <TextView
+            android:id="@+id/tv41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_alignBaseline="@+id/e41"
+            android:layout_alignBottom="@+id/e41"
+            android:layout_alignStart="@+id/tv31" />
+
+        <TextView
+            android:id="@+id/tv61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_alignBaseline="@+id/e61"
+            android:layout_alignBottom="@+id/e61"
+            android:layout_alignStart="@+id/tv51" />
+
+        <EditText
+            android:id="@+id/e31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:padding="10dp"
+            android:inputType="numberDecimal"
+            android:layout_alignBaseline="@+id/tv31"
+            android:layout_alignBottom="@+id/tv31"
+            android:layout_alignParentEnd="true" />
+
+
+
+        <TextView
+            android:id="@+id/tv12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/dessert"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_below="@+id/tv61"
+            android:layout_alignStart="@+id/tv31" />
+
+        <TextView
+            android:id="@+id/tv22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_alignBaseline="@+id/tv12"
+            android:layout_alignBottom="@+id/tv12"
+            android:layout_alignStart="@+id/e32" />
+
+        <EditText
+            android:id="@+id/e52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:padding="10dp"
+            android:inputType="numberDecimal"
+            android:layout_below="@+id/e42"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/tv52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_alignBaseline="@+id/e52"
+            android:layout_alignBottom="@+id/e52"
+            android:layout_alignStart="@+id/tv42" />
+
+        <EditText
+            android:id="@+id/e42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:padding="10dp"
+            android:inputType="numberDecimal"
+            android:layout_below="@+id/e32"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/tv32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_marginTop="29dp"
+            android:layout_below="@+id/tv12"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/e62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:padding="10dp"
+            android:inputType="numberDecimal"
+            android:layout_below="@+id/e52"
+            android:layout_alignParentEnd="true" />
+
+
+        <TextView
+            android:id="@+id/tv42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_alignBaseline="@+id/e42"
+            android:layout_alignBottom="@+id/e42"
+            android:layout_alignStart="@+id/tv32" />
+
+        <TextView
+            android:id="@+id/tv62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_alignBaseline="@+id/e62"
+            android:layout_alignBottom="@+id/e62"
+            android:layout_alignStart="@+id/tv52" />
+
+        <EditText
+            android:id="@+id/e32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:padding="10dp"
+            android:inputType="numberDecimal"
+            android:layout_alignBaseline="@+id/tv32"
+            android:layout_alignBottom="@+id/tv32"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update2"
+            android:id="@+id/button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_margin="15dp"
+            android:layout_below="@+id/tv62"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+</ScrollView>
